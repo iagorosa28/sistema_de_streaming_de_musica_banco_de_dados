@@ -13,7 +13,8 @@
 ## Diagrama Relacional
 ### Modelo de Entidade Relacional
 ```mermaid
-erDiagram
+erDiagram;
+graph TD;
    A([Título]) --- B[Música]
    C([Duração]) --- B[Música]
 ```
