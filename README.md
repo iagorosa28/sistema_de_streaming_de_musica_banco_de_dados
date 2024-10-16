@@ -15,6 +15,7 @@
 ```mermaid
 graph TD;
    A([Título]) --- B[Música]
+   C([Duração]) --- B[Música]
 ```
 
 
