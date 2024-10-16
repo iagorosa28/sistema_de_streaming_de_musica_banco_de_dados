@@ -12,8 +12,13 @@
 
 ## Diagrama Relacional
 ### Modelo de Entidade Relacional
-erDiagram
-  ([Título]) --> Música
+```mermaid
+graph TD;
+    ([Título]) --> Música
+```
+
+
+
 
 ### Modelo Relacional na 3FN
 
