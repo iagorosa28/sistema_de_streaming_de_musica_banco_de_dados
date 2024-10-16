@@ -11,6 +11,12 @@
 🔹[Desenvolvedores](#busts_in_silhouette-desenvolvedores)
 
 ## Diagrama Relacional
+### Modelo de Entidade Relacional
+erDiagram
+  ([Título]) --> Música
+
+### Modelo Relacional na 3FN
+
 ## Como executar o código
 
 ## :busts_in_silhouette: Desenvolvedores
