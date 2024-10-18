@@ -14,7 +14,7 @@
 ### Modelo de Entidade Relacional
 ```mermaid
 graph TD;
-   A([Título]) --- B[Música]
+   A([Título]) ||--|{ B[Música]
    C([Duração]) --- B[Música]
 ```
 
