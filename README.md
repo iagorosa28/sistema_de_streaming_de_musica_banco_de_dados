@@ -7,12 +7,13 @@
 > Escrevemos esse projeto juntos durante as aulas
 
 ### Tópicos
+🔹[Diagrama Relacional](#straight_ruler-diagrama-relacional)
 
 🔹[Como executar o código](#space_invader-como-executar-o-código)
 
 🔹[Desenvolvedores](#busts_in_silhouette-desenvolvedores)
 
-## Diagrama Relacional
+## :straight_ruler: Diagrama Relacional
 ### Modelo de Entidade Relacional
 
 <div align="center">
