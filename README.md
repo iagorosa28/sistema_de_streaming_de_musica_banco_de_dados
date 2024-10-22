@@ -21,7 +21,13 @@
 ```mermaid
 classDiagram
 
-   USUARIO "1" --> "0..*" PLAYLIST : cria
+   USUARIO "1" --> "0..*" PLAYLIST : CRIA
+   PLAYLIST "1" --> "0..*" MUSICAS_PLAYLISTS : CONTÉM
+   MUSICA "1" --> "0..*" MUSICAS_PLAYLISTS : ESTÁ_EM
+   ARTISTA "1" --> "0..*" ARTISTAS_MUSICAS : INTERPRETA
+   MUSICA "1" --> "1..*" ARTISTAS_MUSICAS : INTERPRETADA_POR
+   ARTISTA "1" --> "1..*" DISCO : POSSUI
+   DISCO "1" --> "1..*" MUSICA : CONTÉM
 
    class MUSICA
    MUSICA : + int id_musica
