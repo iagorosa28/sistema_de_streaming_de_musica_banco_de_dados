@@ -21,13 +21,17 @@
 ```mermaid
 classDiagram
 
-   USUARIO "1" --> "0..*" PLAYLIST : CRIA
-   PLAYLIST "1" --> "0..*" MUSICAS_PLAYLISTS : CONTÉM
-   MUSICA "1" --> "0..*" MUSICAS_PLAYLISTS : ESTÁ<br>EM
-   ARTISTA "1" --> "0..*" ARTISTAS_MUSICAS : INTERPRETA
-   MUSICA "1" --> "1..*" ARTISTAS_MUSICAS : INTERPRETADA<br>POR
-   ARTISTA "1" --> "1..*" DISCO : POSSUI
-   DISCO "1" --> "1..*" MUSICA : CONTÉM
+<center>
+Este texto também está centralizado.
+</center>
+
+   USUARIO "1" --> "0..*" PLAYLIST : <center>CRIA</center>
+   PLAYLIST "1" --> "0..*" MUSICAS_PLAYLISTS : <center>CONTÉM</center>
+   MUSICA "1" --> "0..*" MUSICAS_PLAYLISTS : <center>ESTÁ<br>EM</center>
+   ARTISTA "1" --> "0..*" ARTISTAS_MUSICAS : <center>INTERPRETA</center>
+   MUSICA "1" --> "1..*" ARTISTAS_MUSICAS : <center>INTERPRETADA<br>POR</center>
+   ARTISTA "1" --> "1..*" DISCO : <center>POSSUI</center>
+   DISCO "1" --> "1..*" MUSICA : <center>CONTÉM</center>
 
    class MUSICA
    MUSICA : + int id_musica
