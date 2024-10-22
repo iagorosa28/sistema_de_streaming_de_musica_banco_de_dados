@@ -70,7 +70,7 @@ classDiagram
 
 ```
 ## :space_invader: Como executar o código
-**PRIMEIRO PASSO:** Faça o download do arquivo "criação_de_tabelas.sql" e rode em alguma IDE de banco de dados. Com isso, além de você já criar um database com o nome "projeto1", você também vai criar cada uma das tabelas que os diagramas mostram com os seus atributos.
+**PRIMEIRO PASSO:** Faça o download do arquivo "criacao_de_tabelas.sql" e rode em alguma IDE de banco de dados. Com isso, além de você já criar um database com o nome "projeto1", você também vai criar cada uma das tabelas que os diagramas mostram com os seus atributos.
 
 **SEGUNDO PASSO:** Para colocar os dados nas tabelas que criou no passo anterior. Basta baixar o arquivo com o nome "insercao_dados.sql" e rodar na mesma IDE logo em seguida do passo anterior. 
 
