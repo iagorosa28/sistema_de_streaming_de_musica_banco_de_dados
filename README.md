@@ -17,7 +17,7 @@
 ### Modelo de Entidade Relacional
 
 <div align="center">
-   <img width=400 height=250 src="https://github.com/user-attachments/assets/a53083ce-8a2a-4e18-ab57-eb1c42cbec59"/>
+   <img width=600 height=450 src="https://github.com/user-attachments/assets/a53083ce-8a2a-4e18-ab57-eb1c42cbec59"/>
 </div>
 
 ### Modelo Relacional na 3FN
