@@ -21,14 +21,14 @@
 ```mermaid
 classDiagram
 
-   ARTISTA ||--o{ DISCO : possui
-   ARTISTA_MUSICA }o--|| ARTISTA : "interpreta"
-   ARTISTA_MUSICA ||--o{ MUSICA : "interpreta"
+   ARTISTA "1" --o{ DISCO : possui
+   ARTISTA_MUSICA }o-- "1" ARTISTA : interpreta
+   ARTISTA_MUSICA ||--o{ MUSICA : interpreta
     
-   DISCO ||--o{ MUSICA : "contem"
-   USUARIO ||--o{ PLAYLIST : "cria"
-   PLAYLIST ||--o{ MUSICAS_PLAYLISTS : "contem"
-   MUSICAS_PLAYLISTS }o--|| MUSICA : "esta em"
+   DISCO "1" --o{ MUSICA : contem
+   USUARIO "1" --o{ PLAYLIST : cria
+   PLAYLIST "1" --o{ MUSICAS_PLAYLISTS : contem
+   MUSICAS_PLAYLISTS }o--|| MUSICA : esta em
 
 
    class MUSICA
