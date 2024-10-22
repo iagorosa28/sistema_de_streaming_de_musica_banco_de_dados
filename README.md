@@ -24,9 +24,15 @@
 #### Playlist
 #### Usuário
 
-| Nome da tarefa:         | id_usuario | nome       | email                | data_registro |
-| :-----------------------| :----------| :----------| :--------------------| :-------------|
-| 1                       | 1          | Mariazinha | mariazinha@gmail.com | 2024-10-17    |
+---
+title: Usuario
+---
+classDiagram
+    class Usuario
+    Usuario : id_usuario
+    Usuario : nome
+    Usuario : email
+    Usuario : data_registro
 
 #### Músicas e Playlistas
 #### Artistas e Músicas
