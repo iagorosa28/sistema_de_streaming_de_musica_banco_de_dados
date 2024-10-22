@@ -22,7 +22,7 @@
 classDiagram
 
    ARTISTA "de 0 a muitos" --> ARTISTA_MUSICA : interpreta
-   ARTISTA_MUSICA "de 1" --> MUSICA : interpreta
+   ARTISTAS_MUSICAS "de 1" --> MUSICA : interpreta
 
    DISCO "de 1" --> MUSICA : contém
    USUARIO "de 1" --> PLAYLIST : cria
