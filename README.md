@@ -12,16 +12,25 @@
 
 ## Diagrama Relacional
 ### Modelo de Entidade Relacional
-```mermaid
-graph TD;
-   A([Título]) ||--| B[Música]
-   C([Duração]) --- B[Música]
-```
 
-
-
+<div align="center">
+   <img width=400 height=250 src="https://github.com/user-attachments/assets/a53083ce-8a2a-4e18-ab57-eb1c42cbec59"/>
+</div>
 
 ### Modelo Relacional na 3FN
+#### Música
+#### Disco
+#### Artistas
+#### Playlist
+#### Usuário
+
+| Nome da tarefa:         | id_usuario | nome       | email                | data_registro |
+| :-----------------------| :----------| :----------| :--------------------| :-------------|
+| 1                       | 1          | Mariazinha | mariazinha@gmail.com | 2024-10-17    |
+
+#### Músicas e Playlistas
+#### Artistas e Músicas
+
 
 ## Como executar o código
 
