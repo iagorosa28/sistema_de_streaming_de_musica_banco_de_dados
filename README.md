@@ -8,7 +8,7 @@
 
 ### Tópicos
 
-🔹[Como executar o código](#space_invader-como_executar_o_código)
+🔹[Como executar o código](#space_invader-como-executar-o-código)
 
 🔹[Desenvolvedores](#busts_in_silhouette-desenvolvedores)
 
