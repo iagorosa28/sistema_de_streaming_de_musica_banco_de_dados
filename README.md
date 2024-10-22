@@ -23,17 +23,18 @@
 #### Artistas
 #### Playlist
 #### Usuário
+```mermaid
+---
+title: Usuário
+---
 
----
-title: Usuario
----
 classDiagram
     class Usuario
     Usuario : id_usuario
     Usuario : nome
     Usuario : email
     Usuario : data_registro
-
+```
 #### Músicas e Playlistas
 #### Artistas e Músicas
 
