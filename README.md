@@ -18,11 +18,6 @@
 </div>
 
 ### Modelo Relacional na 3FN
-#### Música
-#### Disco
-#### Artistas
-#### Playlist
-#### Usuário
 ```mermaid
 classDiagram
    class MUSICA
