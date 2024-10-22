@@ -21,7 +21,7 @@
 ```mermaid
 classDiagram
 
-   ARTISTA "de 0 a muitos" --> ARTISTA_MUSICA : interpreta
+   ARTISTA "de 0 a muitos" --> ARTISTAS_MUSICAS : interpreta
    ARTISTAS_MUSICAS "de 1" --> MUSICA : interpreta
 
    DISCO "de 1" --> MUSICA : contém
