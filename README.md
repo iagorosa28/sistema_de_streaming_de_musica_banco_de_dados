@@ -20,7 +20,15 @@
 ### Modelo Relacional na 3FN
 ```mermaid
 classDiagram
-   
+
+   ARTISTA ||--o{ DISCO : possui
+   ARTISTA_MUSICA }o--|| ARTISTA : "interpreta"
+   ARTISTA_MUSICA ||--o{ MUSICA : "interpreta"
+    
+   DISCO ||--o{ MUSICA : contem
+   USUARIO ||--o{ PLAYLIST : cria
+   PLAYLIST ||--o{ MUSICAS_PLAYLISTS : contem
+   MUSICAS_PLAYLISTS }o--|| MUSICA : "esta em"
 
    class MUSICA
    MUSICA : + int id_musica
