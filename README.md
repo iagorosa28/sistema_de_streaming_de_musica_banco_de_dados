@@ -21,15 +21,14 @@
 ```mermaid
 classDiagram
 
-   ARTISTA "1" --o{ DISCO : possui
-   ARTISTA_MUSICA }o-- "1" ARTISTA : interpreta
-   ARTISTA_MUSICA ||--o{ MUSICA : interpreta
-    
-   DISCO "1" --o{ MUSICA : contem
-   USUARIO "1" --o{ PLAYLIST : cria
-   PLAYLIST "1" --o{ MUSICAS_PLAYLISTS : contem
-   MUSICAS_PLAYLISTS }o--|| MUSICA : esta em
+    ARTISTA "1" --o{ DISCO : possui
+    ARTISTA_MUSICA "1" }o-- "1" ARTISTA : interpreta
+    ARTISTA_MUSICA ||--o{ MUSICA : interpreta
 
+    DISCO "1" --o{ MUSICA : contém
+    USUARIO "1" --o{ PLAYLIST : cria
+    PLAYLIST "1" --o{ MUSICAS_PLAYLISTS : contém
+    MUSICAS_PLAYLISTS }o--|| MUSICA : está em
 
    class MUSICA
    MUSICA : + int id_musica
@@ -68,62 +67,7 @@ classDiagram
     USUARIO : + int data_registro
 
 ```
-```mermaid
-classDiagram
 
-    class ARTISTA {
-        +int id_artista
-        +string nome
-        +int data_nascimento
-    }
-
-    class DISCO {
-        +int id_disco
-        +string titulo
-        +int data_lancamento
-        +int id_artista
-    }
-
-    class MUSICA {
-        +int id_musica
-        +string titulo
-        +int duracao
-        +int id_disco
-    }
-
-    class ARTISTA_MUSICA {
-        +int id_artista
-        +int id_musica
-    }
-
-    class USUARIO {
-        +int id_usuario
-        +string nome
-        +string email
-        +int data_registro
-    }
-
-    class PLAYLIST {
-        +int id_playlist
-        +string titulo
-        +int id_usuario
-    }
-
-    class MUSICAS_PLAYLISTS {
-        +int id_playlist
-        +int id_musica
-    }
-
-    ARTISTA "1" --o{ DISCO : possui
-    ARTISTA_MUSICA }o-- "1" ARTISTA : interpreta
-    ARTISTA_MUSICA ||--o{ MUSICA : interpreta
-    
-    DISCO "1" --o{ MUSICA : contém
-    USUARIO "1" --o{ PLAYLIST : cria
-    PLAYLIST "1" --o{ MUSICAS_PLAYLISTS : contém
-    MUSICAS_PLAYLISTS }o--|| MUSICA : está em
-
-```
 
 
 ## Como executar o código
