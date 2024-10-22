@@ -42,12 +42,9 @@ classDiagram
    MUSICAS_PLAYLISTS : + int id_musica
 
    class ARTISTAS_MUSICAS
-   ARTISTAS_MUSICAS : + 
+   ARTISTAS_MUSICAS : + int 
 
 ```
-#### Músicas e Playlistas
-#### Artistas e Músicas
-
 
 ## Como executar o código
 
