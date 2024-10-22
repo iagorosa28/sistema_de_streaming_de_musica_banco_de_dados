@@ -37,6 +37,12 @@ classDiagram
    MUSICA : + int duracao
    MUSICA : + int id_disco
 
+   class MUSICAS_PLAYLISTS
+   MUSICAS_PLAYLISTS : + int id_playlist
+   MUSICAS_PLAYLISTS : + int id_musica
+
+   class ARTISTAS_MUSICAS
+   ARTISTAS_MUSICAS : + 
 
 ```
 #### Músicas e Playlistas
