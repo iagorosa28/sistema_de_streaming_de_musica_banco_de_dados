@@ -25,12 +25,6 @@
 #### Usuário
 ```mermaid
 classDiagram
-    class USUARIO
-    USUARIO : + int id_usuario
-    USUARIO : + string nome
-    USUARIO : + string email
-    USUARIO : + int data_registro
-
    class MUSICA
    MUSICA : + int id_musica
    MUSICA : + string titulo
@@ -42,7 +36,30 @@ classDiagram
    MUSICAS_PLAYLISTS : + int id_musica
 
    class ARTISTAS_MUSICAS
-   ARTISTAS_MUSICAS : + int 
+   ARTISTAS_MUSICAS : + int id_artista
+   ARTISTAS_MUSICAS : + int id_musica
+
+   class DISCO
+   DISCO : + int id_disco
+   DISCO : + string titulo
+   DISCO : + int data_lancamento
+   DISCO : + int id_artista
+
+   class ARTISTA
+   ARTISTA : + int id_artista
+   ARTISTA : + string nome
+   ARTISTA : + int data_nascimento
+
+   class PLAYLIST
+   PLAYLIST : + int id_playlist
+   PLAYLIST : + string titulo
+   PLAYLIST : + int id_usuario
+
+    class USUARIO
+    USUARIO : + int id_usuario
+    USUARIO : + string nome
+    USUARIO : + string email
+    USUARIO : + int data_registro
 
 ```
 
