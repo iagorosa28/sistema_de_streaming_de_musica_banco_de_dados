@@ -66,9 +66,6 @@ classDiagram
     USUARIO : + int data_registro
 
 ```
-
-
-
 ## Como executar o código
 ### Parte de criação de tabelas
 
