@@ -24,16 +24,20 @@
 #### Playlist
 #### Usuário
 ```mermaid
----
-title: Usuário
----
-
 classDiagram
     class USUARIO
     USUARIO : + int id_usuario
     USUARIO : + string nome
     USUARIO : + string email
     USUARIO : + int data_registro
+
+   class MUSICA
+   MUSICA : + int id_musica
+   MUSICA : + string titulo
+   MUSICA : + int duracao
+   MUSICA : + int id_disco
+
+
 ```
 #### Músicas e Playlistas
 #### Artistas e Músicas
