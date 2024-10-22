@@ -30,10 +30,10 @@ title: Usuário
 
 classDiagram
     class USUARIO
-    Usuario : + int id_usuario
-    Usuario : nome
-    Usuario : email
-    Usuario : data_registro
+    USUARIO : + int id_usuario
+    USUARIO : + string nome
+    USUARIO : + string email
+    USUARIO : + int data_registro
 ```
 #### Músicas e Playlistas
 #### Artistas e Músicas
