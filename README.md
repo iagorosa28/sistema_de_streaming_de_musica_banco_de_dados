@@ -21,13 +21,13 @@
 ```mermaid
 classDiagram
 
-   ARTISTA "de 0 a muitos" --> ARTISTAS_MUSICAS : interpreta
-   ARTISTAS_MUSICAS "de 1" --> MUSICA : interpreta
-
-   DISCO "de 1" --> MUSICA : contém
-   USUARIO "de 1" --> PLAYLIST : cria
-   PLAYLIST "de 1" --> MUSICAS_PLAYLISTS : contém
-   MUSICAS_PLAYLISTS "de 1" --> MUSICA : está em
+   ARTISTA "de N" --> ARTISTAS_MUSICAS : interpreta
+   ARTISTAS_MUSICAS "de 1" --> MUSICA "para M" : interpreta
+   ARTISTA "de 1" --> DISCO "para N" :  possui
+   DISCO "de 1" --> MUSICA "para N" : contém
+   USUARIO "de 1" --> PLAYLIST "para N" : cria
+   PLAYLIST "de N" --> MUSICAS_PLAYLISTS "para M" : contém
+   MUSICAS_PLAYLISTS "de 1" --> MUSICA "para M" : está em
 
    class MUSICA
    MUSICA : + int id_musica
