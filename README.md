@@ -29,8 +29,8 @@ title: Usuário
 ---
 
 classDiagram
-    class Usuario
-    Usuario : id_usuario
+    class USUARIO
+    Usuario : + int id_usuario
     Usuario : nome
     Usuario : email
     Usuario : data_registro
