@@ -1,6 +1,6 @@
 # Sistema de streaming de música
 
-> Status do projeto: Em andamento
+> Status do projeto: Finalizado
 
 > Esse projeto nos foi proposto no 5ºSemestre na disciplina de Banco de Dados
 
